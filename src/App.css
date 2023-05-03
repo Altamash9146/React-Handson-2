@@ -1,38 +1,52 @@
-.App {
+body{
+  background-image: linear-gradient(lightblue, pink,transparent);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Heading{
   text-align: center;
+  font-style: italic;
+  color:brown;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Modifyform{
+position: absolute; left: 35%;
+font-size: larger;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box{
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative; left: 5%;
+  background-color: lightblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box1{
+  position: relative; left: 21.5%;
 }
 
-.App-link {
-  color: #61dafb;
+.Submit{
+  position: absolute; left: 35%;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Value-Container{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+border: 2px solid rgba(0, 0, 0, 0);
+position: absolute; top: 65%; left: 3%;
+}
+
+.Value-Box{
+  border: 2px solid black;
+  width: 400px; height: 65px;
+  background-color: palevioletred;
+  border-radius: 8px;
+  margin: 5px;
 }
